@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0359027346DB3E202B75438DECFE942B /* RHAddressBook_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE0E4CDC456F448C6A86A94FD1809F0 /* RHAddressBook_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD9B40F6A1BB5BD44753DBC44143157 /* RHAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B99D8F5FD676C0D0C66AEB3D6E9674 /* RHAddressBook-dummy.m */; };
+		108FA1C9BE2B896B17AEC3732142443A /* Pods-PetBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F09FF8194633405298A860B5CAB6A5E /* Pods-PetBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13680F0F64E2B53FFDA87BAD3D1640A7 /* RHSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A34065821A6E1ECDF8B485F704790E5F /* RHSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1911D487788C574955D18FFFEC5DDBAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B80A9CDF5C895A4A0878C3CFCC03C16 /* Foundation.framework */; };
+		3F1E4DA72C114D2AEBEB3993EB3A9B20 /* RHMultiValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE3A2FB67522F0D6E66880FDFBB977E /* RHMultiValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43AAF069E00373211115381FA1DE2FE9 /* RHAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DE714360FDF9C15A7E2D94B0A7E519 /* RHAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6A76F7A42DA925A8EC98C6A3497EFC /* RHAddressBookGeoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2055778D97FF23835F603E7615E097 /* RHAddressBookGeoResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		544A9BCB579849057342B22D72386B7C /* RHAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB19EC6079117904547157F69BAC75F /* RHAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6507DBB516120F2B407D476532398BF6 /* RHGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C64F55CF535F9A822C043B5A1E10E8 /* RHGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DC1C575E9572280773505FB23537B8B /* Pods-PetBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9688C3386E2DD695DBFD7AF87FB0E3 /* Pods-PetBook-dummy.m */; };
+		73E8679CEE3B18856A36AC615F329AA7 /* RHRecord_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E54AB7E45F7B7B65AFF0C0635805931 /* RHRecord_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE10F85BD3EBE50627244D08C40153E /* RHPersonLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = EA274B873A70A1281E43330B1AE81C62 /* RHPersonLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E22905917AFC720379893734A4F6CAF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FF519483C6EDAC654C9FF7B19B1EC /* AddressBook.framework */; };
+		973457D2E1ABB0525AEB0B1DEEF06520 /* RHARCSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 522772953EE0556644E59B1677D5DF03 /* RHARCSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9920ABF8F603B62DC26DD8CEF0C5CF40 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE12A8DEF874330CFF8D84432660595 /* RHPerson.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7873E24AF34D7FEA62B35DE8181C62 /* RHAddressBookThreadMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCB660672B18BDE47611A8E5C806E0F /* RHAddressBookThreadMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B1D777842D06682FDF07D3BEE33CF54 /* RHAddressBookThreadMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF577ED724018D831FDE3E9A67C9FB /* RHAddressBookThreadMain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9CCC77D0D2A036C8A7CFF8C12FF21E85 /* RHAddressBookSharedServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E51AD3462430B00184E376094DE4AB /* RHAddressBookSharedServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A678D0834CACEEF059EA442A66CB875B /* NSThread+RHBlockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F44334CFB79C381CBBEF0CAA3B97C8B /* NSThread+RHBlockAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00E549EBD19C220D641B27A81B623DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B93AE2328C2B13C62D21EB32DD3A413 /* CoreLocation.framework */; };
+		B94C0BED0DD16ABC334C39C55A48310A /* RHGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDF18DD515E2778B2BD1D69A07EA99C /* RHGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2AA41E49A610B887930869414A0118 /* RHRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C18E2D2A2D5203E594A22B251C1048B /* RHRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8FD303869DA3EC4DA4346A2704405FA /* RHAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 80502F04E6DE6B9CB7824505AD63EB1F /* RHAddressBook.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C979FB45EE8643C85A409DB6503FFDFB /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8991255306BBFE1D29AF2565ECDB8FA /* AddressBookUI.framework */; };
+		D08565A6E340C8F5CC549C28579650F2 /* RHMultiValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA66FEC08C5A902A9B5D0C2FED027C4E /* RHMultiValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D45302F492CA81096B459FC47053A92B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B80A9CDF5C895A4A0878C3CFCC03C16 /* Foundation.framework */; };
+		DB7B5A3405F7CB964EB8A95728F42A57 /* AddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = D781A04342BF60E9C7E3A4F3CD1CADC3 /* AddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E38D9D30D71688600C80786F43108AD3 /* NSThread+RHBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1931EB0AB596E02E683D6CA73DBA620 /* NSThread+RHBlockAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8D1AF77CB832D6CAE64A597C783ACA7 /* RHAddressBookSharedServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5CCBAC840074B44F666EBFDA7B3C89 /* RHAddressBookSharedServices.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB0DAB06E638457EB02E681000B0669C /* RHPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = DA039EDAA3C980EA6BBA2ECC04CAFF7F /* RHPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62676A0CFFB4977F318EFB2F7D9BD8B /* RHSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CD18CA33C0742C2DAC23741A7BB6326F /* RHSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F8AAA764580FA0704B09013B8FB8CE8A /* RHAddressBookGeoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D63349E7E3FC00DB98637FD768BADD0E /* RHAddressBookGeoResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF691F9241727E6E555B05E48D6C84E /* RHRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C68CA8CB02D6BF9FD454A79D5C5F4F73 /* RHRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3092C3FEB53C6EDBE06C42D2D99CA7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB173C229522A7FAA7640D58899A1BE;
+			remoteInfo = RHAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03516AEFD6C4ACB85A0756677A99C962 /* Pods-PetBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetBook-resources.sh"; sourceTree = "<group>"; };
+		0C7D813FA83F76F8B61B1799B6146522 /* Pods_PetBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F09FF8194633405298A860B5CAB6A5E /* Pods-PetBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetBook-umbrella.h"; sourceTree = "<group>"; };
+		1E54AB7E45F7B7B65AFF0C0635805931 /* RHRecord_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHRecord_Private.h; path = RHAddressBook/RHRecord_Private.h; sourceTree = "<group>"; };
+		1F8D6AB6FACA404CD162B21414D4B181 /* Pods-PetBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27CF577ED724018D831FDE3E9A67C9FB /* RHAddressBookThreadMain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBookThreadMain.m; path = RHAddressBook/RHAddressBookThreadMain.m; sourceTree = "<group>"; };
+		2B9688C3386E2DD695DBFD7AF87FB0E3 /* Pods-PetBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetBook-dummy.m"; sourceTree = "<group>"; };
+		2BCB660672B18BDE47611A8E5C806E0F /* RHAddressBookThreadMain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBookThreadMain.h; path = RHAddressBook/RHAddressBookThreadMain.h; sourceTree = "<group>"; };
+		2BE3A2FB67522F0D6E66880FDFBB977E /* RHMultiValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHMultiValue.h; path = RHAddressBook/RHMultiValue.h; sourceTree = "<group>"; };
+		2CAC3E1E928A9942A8CD46BC28D1C4F3 /* Pods-PetBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBook.release.xcconfig"; sourceTree = "<group>"; };
+		2D7F825088780508433D34476CDDFEEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB19EC6079117904547157F69BAC75F /* RHAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBook.h; path = RHAddressBook/RHAddressBook.h; sourceTree = "<group>"; };
+		4AE12A8DEF874330CFF8D84432660595 /* RHPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHPerson.m; path = RHAddressBook/RHPerson.m; sourceTree = "<group>"; };
+		4BE0E4CDC456F448C6A86A94FD1809F0 /* RHAddressBook_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBook_Private.h; path = RHAddressBook/RHAddressBook_Private.h; sourceTree = "<group>"; };
+		4C048D37E47C6F727AC590DA778A46D2 /* Pods-PetBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetBook-frameworks.sh"; sourceTree = "<group>"; };
+		522772953EE0556644E59B1677D5DF03 /* RHARCSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHARCSupport.h; path = RHAddressBook/RHARCSupport.h; sourceTree = "<group>"; };
+		5ABE46FD47C702E00493C74905757C4E /* RHAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RHAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
+		5B93AE2328C2B13C62D21EB32DD3A413 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		5BDF18DD515E2778B2BD1D69A07EA99C /* RHGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHGroup.h; path = RHAddressBook/RHGroup.h; sourceTree = "<group>"; };
+		654AC66856515CE8EE2930EACC134851 /* RHAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RHAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E51AD3462430B00184E376094DE4AB /* RHAddressBookSharedServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBookSharedServices.h; path = RHAddressBook/RHAddressBookSharedServices.h; sourceTree = "<group>"; };
+		681AF547BD70F7DF62875A85441F404C /* Pods-PetBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PetBook.modulemap"; sourceTree = "<group>"; };
+		68652B16F3BC01F81433444C75F664DA /* Pods-PetBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBook.debug.xcconfig"; sourceTree = "<group>"; };
+		7F44334CFB79C381CBBEF0CAA3B97C8B /* NSThread+RHBlockAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+RHBlockAdditions.h"; path = "RHAddressBook/NSThread+RHBlockAdditions.h"; sourceTree = "<group>"; };
+		80502F04E6DE6B9CB7824505AD63EB1F /* RHAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBook.m; path = RHAddressBook/RHAddressBook.m; sourceTree = "<group>"; };
+		8C18E2D2A2D5203E594A22B251C1048B /* RHRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHRecord.h; path = RHAddressBook/RHRecord.h; sourceTree = "<group>"; };
+		9B80A9CDF5C895A4A0878C3CFCC03C16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C005506C3E2B715E7E8DA6C075109E4 /* RHAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RHAddressBook.modulemap; sourceTree = "<group>"; };
+		A089171768A4ABC29586EF445DBB9222 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		A1931EB0AB596E02E683D6CA73DBA620 /* NSThread+RHBlockAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+RHBlockAdditions.m"; path = "RHAddressBook/NSThread+RHBlockAdditions.m"; sourceTree = "<group>"; };
+		A34065821A6E1ECDF8B485F704790E5F /* RHSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHSource.h; path = RHAddressBook/RHSource.h; sourceTree = "<group>"; };
+		AE2055778D97FF23835F603E7615E097 /* RHAddressBookGeoResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBookGeoResult.m; path = RHAddressBook/RHAddressBookGeoResult.m; sourceTree = "<group>"; };
+		B6B99D8F5FD676C0D0C66AEB3D6E9674 /* RHAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RHAddressBook-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1DE714360FDF9C15A7E2D94B0A7E519 /* RHAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RHAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		C3C64F55CF535F9A822C043B5A1E10E8 /* RHGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHGroup.m; path = RHAddressBook/RHGroup.m; sourceTree = "<group>"; };
+		C68CA8CB02D6BF9FD454A79D5C5F4F73 /* RHRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHRecord.m; path = RHAddressBook/RHRecord.m; sourceTree = "<group>"; };
+		C81AF19D01F8376C6FA68D0BB136612A /* RHAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RHAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		C8991255306BBFE1D29AF2565ECDB8FA /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		CC5CCBAC840074B44F666EBFDA7B3C89 /* RHAddressBookSharedServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBookSharedServices.m; path = RHAddressBook/RHAddressBookSharedServices.m; sourceTree = "<group>"; };
+		CD18CA33C0742C2DAC23741A7BB6326F /* RHSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHSource.m; path = RHAddressBook/RHSource.m; sourceTree = "<group>"; };
+		D63349E7E3FC00DB98637FD768BADD0E /* RHAddressBookGeoResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBookGeoResult.h; path = RHAddressBook/RHAddressBookGeoResult.h; sourceTree = "<group>"; };
+		D781A04342BF60E9C7E3A4F3CD1CADC3 /* AddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AddressBook.h; path = RHAddressBook/AddressBook.h; sourceTree = "<group>"; };
+		DA039EDAA3C980EA6BBA2ECC04CAFF7F /* RHPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHPerson.h; path = RHAddressBook/RHPerson.h; sourceTree = "<group>"; };
+		E2FAEA6D12944A546F5D0ADA24FB383F /* RHAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RHAddressBook.xcconfig; sourceTree = "<group>"; };
+		E8CD2040170C2473D19E85261212E4A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA274B873A70A1281E43330B1AE81C62 /* RHPersonLabels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHPersonLabels.h; path = RHAddressBook/RHPersonLabels.h; sourceTree = "<group>"; };
+		EA66FEC08C5A902A9B5D0C2FED027C4E /* RHMultiValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHMultiValue.m; path = RHAddressBook/RHMultiValue.m; sourceTree = "<group>"; };
+		F5F1B1F5F8A8CB48EA35831CF6B453E1 /* Pods-PetBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC3FF519483C6EDAC654C9FF7B19B1EC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA93D7225A3B9963E7533C2A2BD1E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E22905917AFC720379893734A4F6CAF /* AddressBook.framework in Frameworks */,
+				C979FB45EE8643C85A409DB6503FFDFB /* AddressBookUI.framework in Frameworks */,
+				B00E549EBD19C220D641B27A81B623DF /* CoreLocation.framework in Frameworks */,
+				1911D487788C574955D18FFFEC5DDBAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB96714E4EA9BD1C818D777D14AF423A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45302F492CA81096B459FC47053A92B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E48F71E9EF2BDE3F797C959C6432C5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1502DDB0F4681B037573D8C1C8C948CB /* Pods-PetBook */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD2040170C2473D19E85261212E4A0 /* Info.plist */,
+				681AF547BD70F7DF62875A85441F404C /* Pods-PetBook.modulemap */,
+				1F8D6AB6FACA404CD162B21414D4B181 /* Pods-PetBook-acknowledgements.markdown */,
+				F5F1B1F5F8A8CB48EA35831CF6B453E1 /* Pods-PetBook-acknowledgements.plist */,
+				2B9688C3386E2DD695DBFD7AF87FB0E3 /* Pods-PetBook-dummy.m */,
+				4C048D37E47C6F727AC590DA778A46D2 /* Pods-PetBook-frameworks.sh */,
+				03516AEFD6C4ACB85A0756677A99C962 /* Pods-PetBook-resources.sh */,
+				0F09FF8194633405298A860B5CAB6A5E /* Pods-PetBook-umbrella.h */,
+				68652B16F3BC01F81433444C75F664DA /* Pods-PetBook.debug.xcconfig */,
+				2CAC3E1E928A9942A8CD46BC28D1C4F3 /* Pods-PetBook.release.xcconfig */,
+			);
+			name = "Pods-PetBook";
+			path = "Target Support Files/Pods-PetBook";
+			sourceTree = "<group>";
+		};
+		17A9278BED9C9042448C671B526EB028 /* RHAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				D781A04342BF60E9C7E3A4F3CD1CADC3 /* AddressBook.h */,
+				7F44334CFB79C381CBBEF0CAA3B97C8B /* NSThread+RHBlockAdditions.h */,
+				A1931EB0AB596E02E683D6CA73DBA620 /* NSThread+RHBlockAdditions.m */,
+				522772953EE0556644E59B1677D5DF03 /* RHARCSupport.h */,
+				3CB19EC6079117904547157F69BAC75F /* RHAddressBook.h */,
+				80502F04E6DE6B9CB7824505AD63EB1F /* RHAddressBook.m */,
+				D63349E7E3FC00DB98637FD768BADD0E /* RHAddressBookGeoResult.h */,
+				AE2055778D97FF23835F603E7615E097 /* RHAddressBookGeoResult.m */,
+				66E51AD3462430B00184E376094DE4AB /* RHAddressBookSharedServices.h */,
+				CC5CCBAC840074B44F666EBFDA7B3C89 /* RHAddressBookSharedServices.m */,
+				2BCB660672B18BDE47611A8E5C806E0F /* RHAddressBookThreadMain.h */,
+				27CF577ED724018D831FDE3E9A67C9FB /* RHAddressBookThreadMain.m */,
+				4BE0E4CDC456F448C6A86A94FD1809F0 /* RHAddressBook_Private.h */,
+				5BDF18DD515E2778B2BD1D69A07EA99C /* RHGroup.h */,
+				C3C64F55CF535F9A822C043B5A1E10E8 /* RHGroup.m */,
+				2BE3A2FB67522F0D6E66880FDFBB977E /* RHMultiValue.h */,
+				EA66FEC08C5A902A9B5D0C2FED027C4E /* RHMultiValue.m */,
+				DA039EDAA3C980EA6BBA2ECC04CAFF7F /* RHPerson.h */,
+				4AE12A8DEF874330CFF8D84432660595 /* RHPerson.m */,
+				EA274B873A70A1281E43330B1AE81C62 /* RHPersonLabels.h */,
+				8C18E2D2A2D5203E594A22B251C1048B /* RHRecord.h */,
+				C68CA8CB02D6BF9FD454A79D5C5F4F73 /* RHRecord.m */,
+				1E54AB7E45F7B7B65AFF0C0635805931 /* RHRecord_Private.h */,
+				A34065821A6E1ECDF8B485F704790E5F /* RHSource.h */,
+				CD18CA33C0742C2DAC23741A7BB6326F /* RHSource.m */,
+				A88254F6B6F9845423C2A7943AD12744 /* Support Files */,
+			);
+			path = RHAddressBook;
+			sourceTree = "<group>";
+		};
+		45E48F71E9EF2BDE3F797C959C6432C5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC3FF519483C6EDAC654C9FF7B19B1EC /* AddressBook.framework */,
+				C8991255306BBFE1D29AF2565ECDB8FA /* AddressBookUI.framework */,
+				5B93AE2328C2B13C62D21EB32DD3A413 /* CoreLocation.framework */,
+				9B80A9CDF5C895A4A0878C3CFCC03C16 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				E88D616C7DC650603D5539DDD8E1462F /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D1A5F6E78040E0991A2364FD84B550C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97F35240EF5B68DE421D52541BFDD12A /* couchbase-lite-ios */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3B2E5D97A3C5F79D6D4FE11A35F44 /* Core */,
+			);
+			path = "couchbase-lite-ios";
+			sourceTree = "<group>";
+		};
+		A88254F6B6F9845423C2A7943AD12744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D7F825088780508433D34476CDDFEEF /* Info.plist */,
+				9C005506C3E2B715E7E8DA6C075109E4 /* RHAddressBook.modulemap */,
+				E2FAEA6D12944A546F5D0ADA24FB383F /* RHAddressBook.xcconfig */,
+				5ABE46FD47C702E00493C74905757C4E /* RHAddressBook-Private.xcconfig */,
+				B6B99D8F5FD676C0D0C66AEB3D6E9674 /* RHAddressBook-dummy.m */,
+				C81AF19D01F8376C6FA68D0BB136612A /* RHAddressBook-prefix.pch */,
+				C1DE714360FDF9C15A7E2D94B0A7E519 /* RHAddressBook-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RHAddressBook";
+			sourceTree = "<group>";
+		};
+		B2B3B2E5D97A3C5F79D6D4FE11A35F44 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB3862FB5F29CE9893E6F12F8041BB53 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BB3862FB5F29CE9893E6F12F8041BB53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A089171768A4ABC29586EF445DBB9222 /* CouchbaseLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7D813FA83F76F8B61B1799B6146522 /* Pods_PetBook.framework */,
+				654AC66856515CE8EE2930EACC134851 /* RHAddressBook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A5F6E78040E0991A2364FD84B550C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1502DDB0F4681B037573D8C1C8C948CB /* Pods-PetBook */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E88D616C7DC650603D5539DDD8E1462F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A9278BED9C9042448C671B526EB028 /* RHAddressBook */,
+				97F35240EF5B68DE421D52541BFDD12A /* couchbase-lite-ios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2F659FAAADFB1DB6F3BC39869BF71B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108FA1C9BE2B896B17AEC3732142443A /* Pods-PetBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4843206C3F1CC68427CDE2942FCE32B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7B5A3405F7CB964EB8A95728F42A57 /* AddressBook.h in Headers */,
+				A678D0834CACEEF059EA442A66CB875B /* NSThread+RHBlockAdditions.h in Headers */,
+				973457D2E1ABB0525AEB0B1DEEF06520 /* RHARCSupport.h in Headers */,
+				43AAF069E00373211115381FA1DE2FE9 /* RHAddressBook-umbrella.h in Headers */,
+				544A9BCB579849057342B22D72386B7C /* RHAddressBook.h in Headers */,
+				F8AAA764580FA0704B09013B8FB8CE8A /* RHAddressBookGeoResult.h in Headers */,
+				9CCC77D0D2A036C8A7CFF8C12FF21E85 /* RHAddressBookSharedServices.h in Headers */,
+				9A7873E24AF34D7FEA62B35DE8181C62 /* RHAddressBookThreadMain.h in Headers */,
+				0359027346DB3E202B75438DECFE942B /* RHAddressBook_Private.h in Headers */,
+				B94C0BED0DD16ABC334C39C55A48310A /* RHGroup.h in Headers */,
+				3F1E4DA72C114D2AEBEB3993EB3A9B20 /* RHMultiValue.h in Headers */,
+				EB0DAB06E638457EB02E681000B0669C /* RHPerson.h in Headers */,
+				7AE10F85BD3EBE50627244D08C40153E /* RHPersonLabels.h in Headers */,
+				BD2AA41E49A610B887930869414A0118 /* RHRecord.h in Headers */,
+				73E8679CEE3B18856A36AC615F329AA7 /* RHRecord_Private.h in Headers */,
+				13680F0F64E2B53FFDA87BAD3D1640A7 /* RHSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19EFC3B07350D60509319F1B1850DFAA /* Pods-PetBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC709C7DDD6A3CEAF5B8A1E5525289C5 /* Build configuration list for PBXNativeTarget "Pods-PetBook" */;
+			buildPhases = (
+				9C6009DC110A1122C50DF2C0198FECEE /* Sources */,
+				FB96714E4EA9BD1C818D777D14AF423A /* Frameworks */,
+				E2F659FAAADFB1DB6F3BC39869BF71B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D18310C4028D4039449A0B6840D2AA43 /* PBXTargetDependency */,
+			);
+			name = "Pods-PetBook";
+			productName = "Pods-PetBook";
+			productReference = 0C7D813FA83F76F8B61B1799B6146522 /* Pods_PetBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EB173C229522A7FAA7640D58899A1BE /* RHAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0574D1B50BD88A9EF761EB2190719E /* Build configuration list for PBXNativeTarget "RHAddressBook" */;
+			buildPhases = (
+				EE121BA97CC29B4F22BCD7308DFCB1B8 /* Sources */,
+				BEA93D7225A3B9963E7533C2A2BD1E3B /* Frameworks */,
+				F4843206C3F1CC68427CDE2942FCE32B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHAddressBook;
+			productName = RHAddressBook;
+			productReference = 654AC66856515CE8EE2930EACC134851 /* RHAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19EFC3B07350D60509319F1B1850DFAA /* Pods-PetBook */,
+				1EB173C229522A7FAA7640D58899A1BE /* RHAddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C6009DC110A1122C50DF2C0198FECEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC1C575E9572280773505FB23537B8B /* Pods-PetBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121BA97CC29B4F22BCD7308DFCB1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38D9D30D71688600C80786F43108AD3 /* NSThread+RHBlockAdditions.m in Sources */,
+				0DD9B40F6A1BB5BD44753DBC44143157 /* RHAddressBook-dummy.m in Sources */,
+				C8FD303869DA3EC4DA4346A2704405FA /* RHAddressBook.m in Sources */,
+				4A6A76F7A42DA925A8EC98C6A3497EFC /* RHAddressBookGeoResult.m in Sources */,
+				E8D1AF77CB832D6CAE64A597C783ACA7 /* RHAddressBookSharedServices.m in Sources */,
+				9B1D777842D06682FDF07D3BEE33CF54 /* RHAddressBookThreadMain.m in Sources */,
+				6507DBB516120F2B407D476532398BF6 /* RHGroup.m in Sources */,
+				D08565A6E340C8F5CC549C28579650F2 /* RHMultiValue.m in Sources */,
+				9920ABF8F603B62DC26DD8CEF0C5CF40 /* RHPerson.m in Sources */,
+				FBF691F9241727E6E555B05E48D6C84E /* RHRecord.m in Sources */,
+				F62676A0CFFB4977F318EFB2F7D9BD8B /* RHSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D18310C4028D4039449A0B6840D2AA43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RHAddressBook;
+			target = 1EB173C229522A7FAA7640D58899A1BE /* RHAddressBook */;
+			targetProxy = 3092C3FEB53C6EDBE06C42D2D99CA7DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ABB165394251702BEABC26EB9AA42FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABE46FD47C702E00493C74905757C4E /* RHAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RHAddressBook/RHAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RHAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RHAddressBook/RHAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RHAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E43510942BF675F6CA14281D0F60EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABE46FD47C702E00493C74905757C4E /* RHAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RHAddressBook/RHAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RHAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RHAddressBook/RHAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RHAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4889CE36B631C8BF237E2D454B67E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68652B16F3BC01F81433444C75F664DA /* Pods-PetBook.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PetBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PetBook/Pods-PetBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PetBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4E647C699A3AC21DE939930CDBCBF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAC3E1E928A9942A8CD46BC28D1C4F3 /* Pods-PetBook.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PetBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PetBook/Pods-PetBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PetBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0574D1B50BD88A9EF761EB2190719E /* Build configuration list for PBXNativeTarget "RHAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB165394251702BEABC26EB9AA42FA /* Debug */,
+				7E43510942BF675F6CA14281D0F60EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC709C7DDD6A3CEAF5B8A1E5525289C5 /* Build configuration list for PBXNativeTarget "Pods-PetBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4889CE36B631C8BF237E2D454B67E77 /* Debug */,
+				E4E647C699A3AC21DE939930CDBCBF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

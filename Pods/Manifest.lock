@@ -1,0 +1,15 @@
+PODS:
+  - couchbase-lite-ios (1.1.0):
+    - couchbase-lite-ios/Core (= 1.1.0)
+  - couchbase-lite-ios/Core (1.1.0)
+  - RHAddressBook (1.1.1)
+
+DEPENDENCIES:
+  - couchbase-lite-ios (= 1.1.0)
+  - RHAddressBook (= 1.1.1)
+
+SPEC CHECKSUMS:
+  couchbase-lite-ios: fc7be01032dc1a4c923d1a52b6734eb9b20bf072
+  RHAddressBook: 870e9e0b34cb917b9c4c600fc3b7d5b530b23b13
+
+COCOAPODS: 0.38.2
