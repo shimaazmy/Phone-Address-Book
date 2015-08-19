@@ -16,6 +16,7 @@
 @property (strong, nonatomic) CBLDatabase *database;
 @property NSArray* contacts;
 -(CBLLiveQuery*)retriveData;
+-(void)storeData;
 
 @end
 

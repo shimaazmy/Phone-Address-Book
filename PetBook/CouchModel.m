@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "CouchModel.h"
-#import "PetBook-Swift.h"
 #import <RHAddressBook/AddressBook.h>
 
 
@@ -64,8 +63,8 @@
         }
     }
 }
--(CBLLiveQuery*)retriveData
-{
+
+-(CBLLiveQuery *)retriveData {
     NSError *error;
     CBLView* view = [_database viewNamed: @"byDate"];
     [view setMapBlock: MAPBLOCK({
@@ -88,7 +87,7 @@
         _contacts = [ab people];
         [self createTheManager];
         [self createTheDatabase];
-        [self storeData];
+        //[self storeData];
     }
     
     return self;

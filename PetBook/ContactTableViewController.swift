@@ -14,18 +14,61 @@ class ContactTableViewController: UITableViewController {
     let ab = RHAddressBook()
     var contacts: [RHPerson] = []
     let defaultImage: UIImage = UIImage(named:"rose.jpg")!
-    var liveQuery : CBLLiveQuery!
+    var liveQuery: CBLLiveQuery!
+    var error : NSError!
+    var instanceOfCouchModel: CouchModel = CouchModel()
+    let addressBookRef: ABAddressBook = ABAddressBookCreateWithOptions(nil, nil).takeRetainedValue()
+    override func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {
+        
+        println("rows count: \(liveQuery.rows?.count)")
+        
+        tableView.reloadData()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        contacts = ab.people() as! [RHPerson]
-        var instanceOfCouchModel: CouchModel = CouchModel()
         liveQuery = instanceOfCouchModel.retriveData()
+        liveQuery.addObserver(self, forKeyPath: "rows", options: .allZeros, context: nil)
+        let authorizationStatus = ABAddressBookGetAuthorizationStatus()
+        switch authorizationStatus {
+        case .Denied, .Restricted:
+            //1
+            println("Denied")
+        case .Authorized:
+            //2
+            println("Authorized")
+        case .NotDetermined:
+            //3
+            println("Not Determined")
+            promptForAddressBookRequestAccess()
+        }
+    }
+    func promptForAddressBookRequestAccess() {
+        var err: Unmanaged<CFError>? = nil
         
+        ABAddressBookRequestAccessWithCompletion(addressBookRef) {
+            (granted: Bool, error: CFError!) in
+            dispatch_async(dispatch_get_main_queue()) {
+                if !granted {
+                    println("Just denied")
+                    self.displayCantAddContactAlert()
+                } else {
+                    println("Just authorized")
+                }
+            }
+        }
     }
     
+    func displayCantAddContactAlert() {
+        let cantAddContactAlert = UIAlertController(title: "Cannot Add Contact",
+            message: "You must give the app permission to add the contact first.",
+            preferredStyle: .Alert)
+        cantAddContactAlert.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: nil))
+        presentViewController(cantAddContactAlert, animated: true, completion: nil)
+    }
+    
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        println(liveQuery.rows?.count)
         return Int(liveQuery.rows?.count ?? 0)
     }
     func contactAtIndex(index: Int) -> ContactModel? {
@@ -35,7 +78,10 @@ class ContactTableViewController: UITableViewController {
             return nil
         }
     }
-    
+    @IBAction func importContacts() {
+        instanceOfCouchModel.storeData()
+        
+    }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cellIdentifier = "ContactTableViewCell"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! ContactTableViewCell
