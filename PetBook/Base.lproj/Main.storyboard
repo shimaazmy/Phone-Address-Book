@@ -209,7 +209,7 @@
         <!--Add Contact View Controller-->
         <scene sceneID="aGW-xi-6XO">
             <objects>
-                <viewController id="pKQ-xj-q5Y" customClass="AddContactViewController" customModule="PetBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddContactViewController" id="pKQ-xj-q5Y" customClass="AddContactViewController" customModule="PetBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LhI-gd-2jC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,6 +289,7 @@
                         <outlet property="lastName" destination="7Ya-4U-nfK" id="WbS-cJ-rX4"/>
                         <outlet property="mail" destination="AVm-v9-eeq" id="WQX-Yh-k8L"/>
                         <outlet property="phone" destination="ru5-ts-pEq" id="YPr-5b-aRP"/>
+                        <outlet property="saveButton" destination="14G-NC-mHn" id="j5R-ln-7a4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i3O-Bk-LFu" userLabel="First Responder" sceneMemberID="firstResponder"/>

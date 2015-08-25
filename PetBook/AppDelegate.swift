@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  PetBook
-//
-//  Created by Niv Yahel on 2015-01-20.
-//  Copyright (c) 2015 Evan Dekhayser. All rights reserved.
-//
 
 import UIKit
 

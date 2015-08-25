@@ -2,4 +2,102 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AddContactViewController.swift"
+            timestampString = "462194038.203545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "addNewContact()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetBook.AddContactViewController.addNewContact (PetBook.AddContactViewController)() -&gt; ()"
+                  moduleName = "PetBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/AddContactViewController.swift"
+                  timestampString = "462194776.794447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetBook.AddContactViewController.addNewContact (PetBook.AddContactViewController)() -&gt; ()"
+                  moduleName = "PetBookTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/AddContactViewController.swift"
+                  timestampString = "462194777.076871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AddContactViewController.swift"
+            timestampString = "462194151.221184"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "showAlert(_:title:message:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetBook.AddContactViewController.showAlert (PetBook.AddContactViewController)(ObjectiveC.UIViewController, title : Swift.String, message : Swift.String) -&gt; ()"
+                  moduleName = "PetBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/AddContactViewController.swift"
+                  timestampString = "462194776.795289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetBook.AddContactViewController.showAlert (PetBook.AddContactViewController)(ObjectiveC.UIViewController, title : Swift.String, message : Swift.String) -&gt; ()"
+                  moduleName = "PetBookTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/AddContactViewController.swift"
+                  timestampString = "462194777.077019"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

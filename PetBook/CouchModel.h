@@ -1,22 +1,17 @@
-//
-//  CouchModel.h
-//  PetBook
-//
-//  Created by Shimaa Azmy on 8/9/15.
-//  Copyright (c) 2015 Evan Dekhayser. All rights reserved.
-//
 #import <CouchbaseLite/CouchbaseLite.h>
 #import "ContactModel.h"
+#import <RHAddressBook/AddressBook.h>
 
 @interface CouchModel :NSObject
-// shared manager
-@property (strong, nonatomic) CBLManager *manager;
 
-// the database
-@property (strong, nonatomic) CBLDatabase *database;
-@property NSArray* contacts;
--(CBLLiveQuery*)retriveData;
--(void)storeData;
-
+@property CBLManager *manager;
+@property CBLDatabase *database;
+-(CBLLiveQuery*)retrieveData;
+-(CBLView *)createView;
+-(BOOL)createDatabase;
+-(void)fillModelObject:(NSArray *)contacts;
+- (nullable ContactModel *)importPerson:(RHPerson *)person
+                               database:(CBLDatabase *)database
+                                  error:(NSError **)error;
 @end
 

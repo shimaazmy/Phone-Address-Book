@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0021BC7D32A24CFB47CA3B0E /* Pods_PetBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E07A0804EF12968F7F9ADB5 /* Pods_PetBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		037E225A1AB75A7A00292068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037E22591AB75A7A00292068 /* AppDelegate.swift */; };
-		037E225C1AB75A9F00292068 /* PetBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037E225B1AB75A9F00292068 /* PetBookViewController.swift */; };
 		131E11921B772FC100D9810B /* CouchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E11911B772FC100D9810B /* CouchModel.m */; };
 		131E11961B775FD900D9810B /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E11951B775FD900D9810B /* ContactTableViewController.swift */; };
 		131E119A1B78ACED00D9810B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131E11991B78ACED00D9810B /* Security.framework */; };
@@ -29,11 +28,23 @@
 		131E11D41B79125500D9810B /* RHAddressBook in Resources */ = {isa = PBXBuildFile; fileRef = 131E11A11B790B8D00D9810B /* RHAddressBook */; };
 		131E11D51B79125900D9810B /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131E11A31B790C3100D9810B /* CouchbaseLite.framework */; };
 		132CAEB41B6CFAFA00393E6D /* DisplayDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CAEB31B6CFAFA00393E6D /* DisplayDataViewController.swift */; };
+		13A4A30B1B87240B00716A0E /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4A30A1B87240B00716A0E /* AddContactViewController.swift */; };
+		13A4A30C1B87240B00716A0E /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4A30A1B87240B00716A0E /* AddContactViewController.swift */; };
+		13A4A30D1B87244E00716A0E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD5BED1B6E3A9B006B1922 /* Contact.swift */; };
+		13A4A30E1B87245800716A0E /* CouchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E11911B772FC100D9810B /* CouchModel.m */; };
+		13A4A30F1B87245C00716A0E /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D9031B79EF7200A9D772 /* ContactModel.m */; };
+		13A4A3101B87246400716A0E /* DisplayDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CAEB31B6CFAFA00393E6D /* DisplayDataViewController.swift */; };
+		13A4A3111B87246700716A0E /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C076D51B6BD2930072ED35 /* ContactTableViewCell.swift */; };
+		13A4A3121B87246C00716A0E /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131E11951B775FD900D9810B /* ContactTableViewController.swift */; };
+		13A4A3141B876C0E00716A0E /* importContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4A3131B876C0E00716A0E /* importContacts.swift */; };
 		13B9D9041B79EF7200A9D772 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D9031B79EF7200A9D772 /* ContactModel.m */; };
 		13BD5BEE1B6E3A9B006B1922 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD5BED1B6E3A9B006B1922 /* Contact.swift */; };
 		13C0766A1B67A54B0072ED35 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C076691B67A54B0072ED35 /* AddressBook.framework */; };
 		13C076D61B6BD2930072ED35 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C076D51B6BD2930072ED35 /* ContactTableViewCell.swift */; };
 		13C077141B6CD16A0072ED35 /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13C077131B6CD16A0072ED35 /* rose.jpg */; };
+		13D1F43B1B89F64E0070A94E /* ImportContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1F43A1B89F64E0070A94E /* ImportContacts.swift */; };
+		13D1F43C1B89F64E0070A94E /* ImportContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1F43A1B89F64E0070A94E /* ImportContacts.swift */; };
+		13D1F43E1B8B26360070A94E /* AddContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1F43D1B8B26360070A94E /* AddContactTests.swift */; };
 		20F8E50B188EFC17003D59C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8E50A188EFC17003D59C9 /* Foundation.framework */; };
 		20F8E50D188EFC17003D59C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8E50C188EFC17003D59C9 /* CoreGraphics.framework */; };
 		20F8E50F188EFC17003D59C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8E50E188EFC17003D59C9 /* UIKit.framework */; };
@@ -49,7 +60,6 @@
 		20F8E544188EFCA1003D59C9 /* contact_Freckles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F8E540188EFCA1003D59C9 /* contact_Freckles.jpg */; };
 		20F8E545188EFCA1003D59C9 /* contact_Maxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F8E541188EFCA1003D59C9 /* contact_Maxi.jpg */; };
 		20F8E546188EFCA1003D59C9 /* contact_Shippo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F8E542188EFCA1003D59C9 /* contact_Shippo.jpg */; };
-		781D3D091ADB68920050C01C /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D3D081ADB68920050C01C /* Pet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +74,6 @@
 
 /* Begin PBXFileReference section */
 		037E22591AB75A7A00292068 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		037E225B1AB75A9F00292068 /* PetBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetBookViewController.swift; sourceTree = "<group>"; };
 		131E11911B772FC100D9810B /* CouchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchModel.m; sourceTree = "<group>"; };
 		131E11931B77305E00D9810B /* <#PetBook#>-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "<#PetBook#>-Bridging-Header.h"; sourceTree = "<group>"; };
 		131E11941B7736C100D9810B /* CouchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchModel.h; sourceTree = "<group>"; };
@@ -77,12 +86,16 @@
 		131E11A31B790C3100D9810B /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = "../SwiftTraining/couchbase-lite-tutorial-ios/HelloCBL/CouchbaseLite.framework"; sourceTree = "<group>"; };
 		131E11CB1B7910A400D9810B /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLiteListener.framework; path = "../SwiftTraining/couchbase-lite-ios-enterprise_1.1.0-31/CouchbaseLiteListener.framework"; sourceTree = "<group>"; };
 		132CAEB31B6CFAFA00393E6D /* DisplayDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDataViewController.swift; sourceTree = "<group>"; };
+		13A4A30A1B87240B00716A0E /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddContactViewController.swift; path = ../AddContactViewController.swift; sourceTree = "<group>"; };
+		13A4A3131B876C0E00716A0E /* importContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = importContacts.swift; sourceTree = "<group>"; };
 		13B9D9031B79EF7200A9D772 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
 		13B9D9061B79EFEA00A9D772 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
 		13BD5BED1B6E3A9B006B1922 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		13C076691B67A54B0072ED35 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		13C076D51B6BD2930072ED35 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		13C077131B6CD16A0072ED35 /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
+		13D1F43A1B89F64E0070A94E /* ImportContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportContacts.swift; sourceTree = "<group>"; };
+		13D1F43D1B8B26360070A94E /* AddContactTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTests.swift; sourceTree = "<group>"; };
 		20F8E507188EFC17003D59C9 /* PetBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F8E50A188EFC17003D59C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20F8E50C188EFC17003D59C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,7 +115,6 @@
 		20F8E541188EFCA1003D59C9 /* contact_Maxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contact_Maxi.jpg; sourceTree = "<group>"; };
 		20F8E542188EFCA1003D59C9 /* contact_Shippo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contact_Shippo.jpg; sourceTree = "<group>"; };
 		4E07A0804EF12968F7F9ADB5 /* Pods_PetBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		781D3D081ADB68920050C01C /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		99E0133851A6FCE55CA2B67C /* Pods-PetBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetBook/Pods-PetBook.debug.xcconfig"; sourceTree = "<group>"; };
 		9D614897757D5BE97BAC589C /* Pods-PetBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetBook/Pods-PetBook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,9 +207,8 @@
 				20F8E522188EFC17003D59C9 /* Images.xcassets */,
 				20F8E511188EFC17003D59C9 /* Supporting Files */,
 				037E22591AB75A7A00292068 /* AppDelegate.swift */,
+				13A4A30A1B87240B00716A0E /* AddContactViewController.swift */,
 				132CAEB31B6CFAFA00393E6D /* DisplayDataViewController.swift */,
-				037E225B1AB75A9F00292068 /* PetBookViewController.swift */,
-				781D3D081ADB68920050C01C /* Pet.swift */,
 				13C076D51B6BD2930072ED35 /* ContactTableViewCell.swift */,
 				131E11951B775FD900D9810B /* ContactTableViewController.swift */,
 				13C077131B6CD16A0072ED35 /* rose.jpg */,
@@ -207,6 +218,7 @@
 				131E11931B77305E00D9810B /* <#PetBook#>-Bridging-Header.h */,
 				13B9D9031B79EF7200A9D772 /* ContactModel.m */,
 				13B9D9061B79EFEA00A9D772 /* ContactModel.h */,
+				13D1F43A1B89F64E0070A94E /* ImportContacts.swift */,
 			);
 			path = PetBook;
 			sourceTree = "<group>";
@@ -230,6 +242,8 @@
 			children = (
 				20F8E535188EFC17003D59C9 /* PetBookTests.m */,
 				20F8E530188EFC17003D59C9 /* Supporting Files */,
+				13A4A3131B876C0E00716A0E /* importContacts.swift */,
+				13D1F43D1B8B26360070A94E /* AddContactTests.swift */,
 			);
 			path = PetBookTests;
 			sourceTree = "<group>";
@@ -407,13 +421,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C076D61B6BD2930072ED35 /* ContactTableViewCell.swift in Sources */,
-				781D3D091ADB68920050C01C /* Pet.swift in Sources */,
 				131E11921B772FC100D9810B /* CouchModel.m in Sources */,
 				13B9D9041B79EF7200A9D772 /* ContactModel.m in Sources */,
 				132CAEB41B6CFAFA00393E6D /* DisplayDataViewController.swift in Sources */,
+				13D1F43B1B89F64E0070A94E /* ImportContacts.swift in Sources */,
 				131E11961B775FD900D9810B /* ContactTableViewController.swift in Sources */,
+				13A4A30B1B87240B00716A0E /* AddContactViewController.swift in Sources */,
 				037E225A1AB75A7A00292068 /* AppDelegate.swift in Sources */,
-				037E225C1AB75A9F00292068 /* PetBookViewController.swift in Sources */,
 				13BD5BEE1B6E3A9B006B1922 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +436,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A4A30D1B87244E00716A0E /* Contact.swift in Sources */,
+				13D1F43C1B89F64E0070A94E /* ImportContacts.swift in Sources */,
+				13D1F43E1B8B26360070A94E /* AddContactTests.swift in Sources */,
 				20F8E536188EFC17003D59C9 /* PetBookTests.m in Sources */,
+				13A4A30E1B87245800716A0E /* CouchModel.m in Sources */,
+				13A4A3101B87246400716A0E /* DisplayDataViewController.swift in Sources */,
+				13A4A3141B876C0E00716A0E /* importContacts.swift in Sources */,
+				13A4A3121B87246C00716A0E /* ContactTableViewController.swift in Sources */,
+				13A4A3111B87246700716A0E /* ContactTableViewCell.swift in Sources */,
+				13A4A30C1B87240B00716A0E /* AddContactViewController.swift in Sources */,
+				13A4A30F1B87245C00716A0E /* ContactModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -498,6 +523,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = PetBook;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -520,6 +546,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -529,6 +556,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_MODULE_NAME = PetBook;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -542,6 +570,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -553,7 +582,7 @@
 				INFOPLIST_FILE = "PetBook/PetBook-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shimaaazmy/Desktop/PetBook/PetBook/<#PetBook#>-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/PetBook/<#PetBook#>-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
@@ -567,6 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -578,7 +608,7 @@
 				INFOPLIST_FILE = "PetBook/PetBook-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shimaaazmy/Desktop/PetBook/PetBook/<#PetBook#>-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/PetBook/<#PetBook#>-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -587,6 +617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PetBook.app/PetBook";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -601,7 +632,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "PetBookTests/PetBookTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/PetBook/<#PetBook#>-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/PetBook/<#PetBook#>-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -611,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PetBook.app/PetBook";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -621,7 +657,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PetBook/PetBook-Prefix.pch";
 				INFOPLIST_FILE = "PetBookTests/PetBookTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_MODULE_NAME = PetBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/PetBook/<#PetBook#>-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/shimaaazmy/Desktop/Phone-Address-Book-fiximportcontacts/PetBook/<#PetBook#>-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
